@@ -16,7 +16,7 @@
 
 <body class="bg-gradient-to-r from-purple-500  to-red-400">
   <section class="p-5 bg-white max-w-md mx-auto mt-5 rounded">
-    <p class="text-gray-500" id="guestName">Welcome Aravindh Ramachandran</p>
+    <p class="text-gray-500" >Welcome <span id="guestName"></span></p>
     <div class="flex items-center justify-between text-gray-500 hover:text-gray-700" title="see github page">
       <p class="font-medium text-red-500">CNG cost calculator</p>
       <a href="https://github.com/Aravindh7101/Cng-calculator" target="_blank"><svg xmlns="http://www.w3.org/2000/svg"
@@ -30,7 +30,7 @@
       <div>
         <label for="Trip-distance" class="font-semibold text-sm">Trip Distance<span
             class="text-red-500">*</span></label>
-        <input type="number" placeholder="Trip Distance" class="form-input" required>
+        <input type="number" id="Trip-distance" placeholder="Trip Distance" class="form-input" required >
       </div>
       <div>
         <label for="Fuel-efficiency" class="font-semibold text-sm">Fuel Efficiency <span
@@ -42,7 +42,7 @@
         <input type="number" placeholder="Fuel Cost" class="form-input" value="84" id="Fuel-cost" required>
       </div>
       <div>
-        <button class="bg-red-500 rounded px-2 py-2 w-full text-white">Calculate
+        <button id="calculate" class="bg-red-500 rounded px-2 py-2 w-full text-white">Calculate
         </button>
       </div>
     </form>
