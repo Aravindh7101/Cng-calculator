@@ -21,8 +21,8 @@ calculater.addEventListener("click", (event) => {
     const fuel_cost = fuelcost.value;
 
     const result = (trip_Distance / fuel_efficiency) * fuel_cost;
-
-    console.log(result);
+    alert("You paid this amount"+" "+result)
+    // console.log("You paid this amount"+result);
   }
 });
 // }
